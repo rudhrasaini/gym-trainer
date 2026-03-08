@@ -15,9 +15,9 @@ export default function Contact() {
             </h2>
             <p className="text-muted text-lg mb-10 max-w-md mx-auto">Book a free consultation or reach out on WhatsApp.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/book" className="bg-white text-black px-10 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center justify-center gap-2">
+              <a href="https://wa.me/918447786332" target="_blank" className="bg-white text-black px-10 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center justify-center gap-2">
                 Book Appointment <span className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs">↗</span>
-              </Link>
+              </a>
               <a href="https://wa.me/918447786332" target="_blank" className="border border-white/20 px-10 py-4 rounded-full font-medium hover:bg-white/10 transition-all text-center">💬 WhatsApp Me</a>
             </div>
             <div className="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto">

@@ -22,9 +22,9 @@ export default function Hero() {
               I am a certified personal trainer with 15+ years of experience, known for transforming lives through science-backed fitness programs.
             </p>
             <div className="anim-up-d3 flex flex-wrap gap-4">
-              <Link href="/book" className="bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center gap-2">
+              <a href="https://wa.me/918447786332" target="_blank" className="bg-white text-black px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center gap-2">
                 Book a Session <span className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs">↗</span>
-              </Link>
+              </a>
               <a href="https://wa.me/918447786332" target="_blank" className="border border-white/20 px-8 py-4 rounded-full font-medium hover:bg-white hover:text-black transition-all duration-300">
                 💬 WhatsApp
               </a>

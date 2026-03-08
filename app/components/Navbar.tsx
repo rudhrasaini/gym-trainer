@@ -30,9 +30,9 @@ export default function Navbar() {
             <a key={l.href} href={l.href} className="text-sm text-muted hover:text-white transition-colors duration-300">{l.label}</a>
           ))}
         </div>
-        <Link href="/book" className="hidden md:flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm font-medium hover:bg-white/90 transition-all">
+        <a href="https://wa.me/918447786332" target="_blank" className="hidden md:flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full text-sm font-medium hover:bg-white/90 transition-all">
           Let&apos;s Talk <span className="w-5 h-5 rounded-full bg-black/10 flex items-center justify-center text-[10px]">↗</span>
-        </Link>
+        </a>
         <button onClick={() => setOpen(!open)} className="md:hidden text-white text-2xl" aria-label="Menu">{open ? "✕" : "☰"}</button>
       </div>
       {open && (
@@ -40,7 +40,7 @@ export default function Navbar() {
           {links.map((l) => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-3 text-muted hover:text-white transition-colors text-sm border-b border-white/5">{l.label}</a>
           ))}
-          <Link href="/book" onClick={() => setOpen(false)} className="mt-6 block text-center bg-white text-black py-3 rounded-full font-medium text-sm">Let&apos;s Talk</Link>
+          <a href="https://wa.me/918447786332" target="_blank" className="mt-6 block text-center bg-white text-black py-3 rounded-full font-medium text-sm">Let&apos;s Talk</a>
         </div>
       )}
     </nav>
