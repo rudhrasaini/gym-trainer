@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Contact() {
   return (
     <section id="contact" className="relative py-24">
@@ -13,17 +11,17 @@ export default function Contact() {
               <span className="inline-block w-14 h-14 md:w-16 md:h-16 rounded-full bg-warm mx-2 align-middle text-3xl md:text-4xl leading-[3.5rem] md:leading-[4rem] text-center">💪</span>
               TALK</span>
             </h2>
-            <p className="text-muted text-lg mb-10 max-w-md mx-auto">Book a free consultation or reach out on WhatsApp.</p>
+            <p className="text-muted text-lg mb-10 max-w-md mx-auto">Get 2 free trial sessions! Reach out on WhatsApp or give me a call.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a href="https://wa.me/918447786332" target="_blank" className="bg-white text-black px-10 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center justify-center gap-2">
-                Book Appointment <span className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs">↗</span>
+                Book Free Session <span className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs">↗</span>
               </a>
               <a href="https://wa.me/918447786332" target="_blank" className="border border-white/20 px-10 py-4 rounded-full font-medium hover:bg-white/10 transition-all text-center">💬 WhatsApp Me</a>
             </div>
             <div className="grid sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
               {[
-                { icon: "📍", info: "123 Fitness Street, Gym City" },
-                { icon: "📞", info: "+91 84477 86332" },
+                { icon: "📧", info: "rudhrasaini10@gmail.com" },
+                { icon: "📞", info: "+91 84477 86332 / 83682 32364" },
                 { icon: "⏰", info: "Mon-Sat: 6AM - 9PM" },
               ].map((c) => (
                 <div key={c.info} className="bg-white/5 rounded-2xl p-5 text-left">

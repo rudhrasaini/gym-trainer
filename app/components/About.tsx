@@ -1,15 +1,17 @@
 export default function About() {
   const details = [
-    { label: "Born In", value: "Delhi, India" },
+    { label: "Based In", value: "Bengaluru, India" },
     { label: "Experience", value: "15+ Years" },
-    { label: "Specialty", value: "Strength & Conditioning" },
-    { label: "Clients", value: "500+ Handled" },
+    { label: "Specialty", value: "Body Transformation" },
+    { label: "Clients", value: "500+ Transformed" },
   ];
-  const experience = [
-    { place: "Elite Fitness Studio", role: "Head Trainer", year: "2022 - Present" },
-    { place: "Gold's Gym", role: "Senior Personal Trainer", year: "2019 - 2022" },
-    { place: "CrossFit Box", role: "Strength Coach", year: "2016 - 2019" },
-    { place: "City Sports Club", role: "Fitness Trainer", year: "2014 - 2016" },
+  const certifications = [
+    { name: "American Council on Exercise (ACE)", type: "Certified Personal Trainer" },
+    { name: "Reebok", type: "Step &amp; Stability Instructor" },
+    { name: "EBFA", type: "Rehab Specialist" },
+    { name: "IKFF", type: "Kettlebell Certification" },
+    { name: "IAHF", type: "International Health &amp; Fitness" },
+    { name: "Sports Nutrition", type: "Nutrition &amp; Supplementation" },
   ];
 
   return (
@@ -19,9 +21,12 @@ export default function About() {
           <div>
             <span className="text-sm text-muted bg-warm px-4 py-2 rounded-full inline-block mb-8">( About Me )</span>
             <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-8">
-              I am a certified personal trainer, known for my ability to turn{" "}
-              <span className="font-serif italic font-normal text-muted">goals into reality.</span>
+              I&apos;m Kuldeep Saini, a professional fitness trainer dedicated to turning{" "}
+              <span className="font-serif italic font-normal text-muted">your goals into reality.</span>
             </h2>
+            <p className="text-muted text-base leading-relaxed mb-8">
+              With over 15 years of experience training bodybuilders, models, and everyday fitness enthusiasts, I bring science-backed programs tailored to your unique goals. Whether it&apos;s weight loss, strength building, or competition prep — I&apos;ve got you covered.
+            </p>
             <div className="grid grid-cols-2 gap-4">
               {details.map((d) => (
                 <div key={d.label} className="bg-card border border-white/5 rounded-2xl p-5">
@@ -33,17 +38,16 @@ export default function About() {
           </div>
           <div className="bg-card border border-white/5 rounded-[30px] p-8 md:p-10">
             <div className="flex items-center gap-4 mb-8">
-              <div className="bg-warm rounded-full w-14 h-14 flex items-center justify-center text-2xl font-black">15+</div>
-              <p className="text-sm text-muted">Years of Experience in<br />Fitness & Training</p>
+              <div className="bg-warm rounded-full w-14 h-14 flex items-center justify-center text-2xl font-black">🏅</div>
+              <p className="text-sm text-muted">Internationally Certified<br />Fitness Professional</p>
             </div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider text-muted mb-6">Experience</h3>
-            {experience.map((e, i) => (
+            <h3 className="font-semibold text-sm uppercase tracking-wider text-muted mb-6">Certifications</h3>
+            {certifications.map((c, i) => (
               <div key={i} className="flex items-start justify-between py-5 border-t border-white/5">
                 <div>
-                  <p className="font-semibold">{e.place}</p>
-                  <p className="text-sm text-muted">{e.role}</p>
+                  <p className="font-semibold">{c.name}</p>
+                  <p className="text-sm text-muted">{c.type}</p>
                 </div>
-                <p className="text-xs text-muted bg-warm px-3 py-1 rounded-full shrink-0">{e.year}</p>
               </div>
             ))}
           </div>

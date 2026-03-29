@@ -1,8 +1,11 @@
 export default function Testimonials() {
   const reviews = [
-    { name: "Alex M.", role: "Lost 30 lbs in 4 months", text: "The personalized approach made all the difference. Best trainer I've ever worked with. Completely changed my relationship with fitness.", avatar: "A" },
-    { name: "Sarah K.", role: "Online coaching client", text: "The online coaching program is incredible. I get all the support I need through WhatsApp and video calls. Results speak for themselves.", avatar: "S" },
-    { name: "James R.", role: "Competition athlete", text: "Helped me prepare for my first bodybuilding competition. Placed 2nd! Couldn't have done it without this guidance and dedication.", avatar: "J" },
+    { name: "Arun", role: "Strength gain in 3 months", text: "I could barely do 5 push-ups when I started. In just 3 months, Kuldeep helped me build real strength with a structured program. My deadlift went from 40kg to 100kg. The results are unreal!", avatar: "A" },
+    { name: "Prasad", role: "Got abs in 4 months", text: "Always dreamed of having visible abs but never knew how. Kuldeep designed a perfect mix of training and diet that got me there in 4 months. Friends can't believe the transformation!", avatar: "P" },
+    { name: "Riddhi", role: "Lost 30 lbs in 4 months", text: "I had tried every diet and gym routine before but nothing worked long-term. Kuldeep's approach was different — sustainable nutrition and workouts I actually enjoyed. Down 30 lbs and keeping it off!", avatar: "R" },
+    { name: "Chinmay", role: "Muscle building in 3 months", text: "As a skinny guy, I struggled to gain muscle for years. Kuldeep's bulking program with proper nutrition guidance helped me gain 8kg of lean muscle in just 3 months. Best investment I've made!", avatar: "C" },
+    { name: "Dhanya", role: "Weight loss in 4 months", text: "Post-pregnancy weight was really affecting my confidence. Kuldeep created a safe, effective program tailored to my needs. Lost all the extra weight in 4 months and feel stronger than ever!", avatar: "D" },
+    { name: "Sadhana", role: "Strength Transformation", text: "I wanted to feel strong and confident, not just lose weight. Kuldeep focused on building my overall strength with compound movements and yoga. I've never felt this powerful in my life!", avatar: "S" },
   ];
 
   return (

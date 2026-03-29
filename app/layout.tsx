@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "FitPro | Personal Trainer & Fitness Coach",
-  description: "Transform your body with a certified personal trainer. Book your session today.",
+  title: "Kuldeep Saini | Professional Fitness Trainer - ACE Certified",
+  description: "ACE certified professional fitness trainer in Delhi. Specializing in weight loss, strength building, bodybuilding, yoga & nutrition planning. 2 free trial sessions!",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
