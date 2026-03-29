@@ -11,7 +11,7 @@ export default function Contact() {
               <span className="inline-block w-14 h-14 md:w-16 md:h-16 rounded-full bg-warm mx-2 align-middle text-3xl md:text-4xl leading-[3.5rem] md:leading-[4rem] text-center">💪</span>
               TALK</span>
             </h2>
-            <p className="text-muted text-lg mb-10 max-w-md mx-auto">Get 2 free trial sessions! Reach out on WhatsApp or give me a call.</p>
+            <p className="text-muted text-lg mb-10 max-w-md mx-auto">Get 1 free trial session! Reach out on WhatsApp or give me a call.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a href="https://wa.me/918447786332" target="_blank" className="bg-white text-black px-10 py-4 rounded-full font-medium hover:bg-white/90 transition-all flex items-center justify-center gap-2">
                 Book Free Session <span className="w-6 h-6 rounded-full bg-black/10 flex items-center justify-center text-xs">↗</span>

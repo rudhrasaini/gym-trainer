@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "Kuldeep Saini | Professional Fitness Trainer - ACE Certified",
-  description: "ACE certified professional fitness trainer in Delhi. Specializing in weight loss, strength building, bodybuilding, yoga & nutrition planning. 2 free trial sessions!",
+  description: "ACE certified professional fitness trainer in Bengaluru. Specializing in weight loss, strength building, bodybuilding, yoga & nutrition planning. 1 free trial session!",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

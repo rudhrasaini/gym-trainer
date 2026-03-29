@@ -9,7 +9,7 @@ export default function Hero() {
           <div>
             <div className="anim-up flex items-center gap-3 mb-8">
               <span className="w-3 h-3 bg-green-500 rounded-full" />
-              <span className="text-sm text-muted">Offering 2 Free Trial Sessions</span>
+              <span className="text-sm text-muted">Offering 1 Free Trial Session</span>
             </div>
             <h1 className="anim-up-d1 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-4">
               <span className="font-serif italic font-normal text-muted">I&apos;m Kuldeep Saini</span><br />Your
